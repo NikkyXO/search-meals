@@ -8,22 +8,39 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 
 
-#### Tutorial 1: https://www.youtube.com/watch?v=cfiN8lCA3RM
+## Tutorial 1: https://www.youtube.com/watch?v=cfiN8lCA3RM
 
-#### To initialize vue project
+### To initialize vue project
 npm  create vite@latest
 
 
 Reference: [tailwindcss.com/docs/guides/vite#vue](https://tailwindcss.com/docs/guides/vite#vue)
 
-#### To install tailwind css
+### To install tailwind css
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 
 
-#### Install vue Router latest version
+### Install vue Router latest version
 
 npm install vue-router@next
 
-#### install vuex
+### install vuex
 npm install vuex@4 -S
+
+### install tailwindcss forms
+Reference: https://github.com/tailwindlabs/tailwindcss-forms
+npm install -D @tailwindcss/forms
+
+Then add the plugin to your tailwind.config.js file:
+
+// tailwind.config.js
+module.exports = {
+  theme: {
+    // ...
+  },
+  plugins: [
+    require('@tailwindcss/forms'),
+    // ...
+  ],
+}
