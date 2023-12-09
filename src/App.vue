@@ -1,9 +1,11 @@
 <script setup>
+
 </script>
 
-<template>
 
-  <router-view />
+<template>
+  
+  <router-view/>
 </template>
 
 

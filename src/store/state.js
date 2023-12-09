@@ -1,4 +1,11 @@
 
+// export default {
+//   searchedMeals: {
+//     loading: false,
+//     data: []
+//   }
+// }
+
 export default {
-  meals: ["Salmon"]
+  searchedMeals: []
 }
